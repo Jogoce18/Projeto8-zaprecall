@@ -5,9 +5,6 @@ export default function Entrada(props)  {
     const[start,setStart]=React.useState('conteudo');
     const[start2,setDisplay1]=React.useState('hidden');
     const{updateGoal } = { ...props }
-
-    
-
     return (
         <>
             <div className={start}>
