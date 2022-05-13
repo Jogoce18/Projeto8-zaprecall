@@ -26,6 +26,7 @@ export default function Entrada(props)  {
                     <span>Iniciar Recall !!</span>
                 </button >  
             </div>
+
             
             <div className={start2}>
                 <div className="conteudo">
