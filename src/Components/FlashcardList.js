@@ -43,7 +43,7 @@ function FlashCard(props) {
   if (stage === "questionsList") {
     return (
       <div className="pergunta">
-        <span>{`Pergunta ${questionNumber}`}</span>
+        <span >{`Pergunta ${questionNumber}`}</span>
         <ion-icon class="icon" name="play-outline" onClick={() => {
             setStage("question");
           }}
@@ -55,8 +55,8 @@ function FlashCard(props) {
   if (stage === "question") {
     return (
       <div className="flash-card-question">
-        <span>{question}</span>
-        <img src="/images/setinha.png"
+        <p>{question}</p>
+        <img src="/images/virar.svg"
           alt="flip-card-icon"
           onClick={() => setStage("answer")}
         />

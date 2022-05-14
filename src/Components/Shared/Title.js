@@ -1,5 +1,5 @@
 export default function Title() {
     return (
-        <p className="title">ZapRecall</p>
+        <h1 className="title">ZapRecall</h1>
     )
 }

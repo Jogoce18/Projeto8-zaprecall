@@ -4,14 +4,10 @@ let contadorZap = 0;
 
 function Footer({
   contador,
- 
   iconsAnswers,
- 
   meta,
- 
 }) {
   
-
   if (contador !== numberOfQuestions) {
     return (
       <footer>
@@ -36,9 +32,9 @@ function Footer({
         return (
           <footer className="final-msg">
             <p>
-              😢 <span>PUTZ!</span>
+            😣 <span>EITA!</span>
             </p>
-            <p>Ainda faltaram alguns... Mas não desanime!</p>
+            <p>Ainda faltaram alguns... Mas não desanime! Tenta novamente 💪</p>
             <div className="icons-answer">
               {iconsAnswers.map((answer) => answer)}
             </div>
@@ -57,16 +53,14 @@ function Footer({
           return (
             <footer className="final-msg">
               <p>
-                😢 <span>PUTZ!</span>
-              </p>
-              <p>Ainda faltaram alguns... Mas não desanime!</p>
-           
+            😣 <span>EITA!</span>
+            </p>
+            <p>Ainda faltaram alguns... Mas não desanime! Tenta novamente 💪</p>
               <div className="icons-answer">
                 {iconsAnswers.map((answer) => answer)}
               </div>
               <button
-                className="reiniciar"
-                onClick={() => {
+                className="reiniciar"  onClick={() => {
                   window.location.reload();
                 }}
               >
@@ -77,20 +71,18 @@ function Footer({
         } else {
           return (
             <footer className="final-msg">
-              <p>
-                😢 <span>PUTZ!</span>
-              </p>
-              <p>Ainda faltaram alguns... Mas não desanime!</p>
+               <p>
+            😣 <span>EITA!</span>
+            </p>
+            <p>Ainda faltaram alguns... Mas não desanime! Tenta novamente 💪</p>
             
               <div className="icons-answer">
                 {iconsAnswers.map((answer) => answer)}
               </div>
               <button
-                className="reiniciar"
-                onClick={() => {
+                className="reiniciar"   onClick={() => {
                   window.location.reload();
-                }}
-              >
+                }}>
                 REINICAR RECALL
               </button>
             </footer>
@@ -101,10 +93,10 @@ function Footer({
       if (meta === "") {
         return (
           <footer className="final-msg">
-            <p>
-              🥳 <span>PARABÉNS!</span>
+             <p>
+            😣 <span>EITA!</span>
             </p>
-            <p>Você não esqueceu de nenhum flashcard!</p>
+            <p>Ainda faltaram alguns... Mas não desanime! Tenta novamente 💪</p>
             <div className="icons-answer">
               {iconsAnswers.map((answer) => answer)}
             </div>
@@ -123,9 +115,9 @@ function Footer({
           return (
             <footer className="final-msg">
               <p>
-                🥳 <span>PARABÉNS!</span>
-              </p>
-              <p>Você não esqueceu de nenhum flashcard!</p>
+            😣 <span>EITA!</span>
+            </p>
+            <p>Ainda faltaram alguns... Mas não desanime! Tenta novamente 💪</p>
             
               <div className="icons-answer">
                 {iconsAnswers.map((answer) => answer)}
@@ -144,19 +136,16 @@ function Footer({
           return (
             <footer className="final-msg">
               <p>
-                🥳 <span>PARABÉNS!</span>
-              </p>
-              <p>Você não esqueceu de nenhum flashcard!</p>
-          
+            😣 <span>EITA!</span>
+            </p>
+            <p>Ainda faltaram alguns... Mas não desanime! Tenta novamente 💪</p>
               <div className="icons-answer">
                 {iconsAnswers.map((answer) => answer)}
               </div>
               <button
-                className="reiniciar"
-                onClick={() => {
+                className="reiniciar"   onClick={() => {
                   window.location.reload();
-                }}
-              >
+                }}>
                 REINICAR RECALL
               </button>
             </footer>

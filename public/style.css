@@ -2,6 +2,7 @@ body {
     background-color: #FB6B6B;
     font-family: 'Recursive', sans-serif;
 }
+
 .conteudo{
 box-sizing: border-box;
 display: flex;
@@ -71,30 +72,28 @@ color: #D70900;
 
 
 .title {
-    font-family: 'Righteous';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.012em;
-    color: #FFFFFF;
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.012em;
+  color: #FFFFFF;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    margin-top: 48px;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header img {
-    width: 52px;
-    height: 60px;
-    margin-right: 22px;
-    margin-top:48px ;
-    margin-bottom: 25px;
+header img {
+  width: 52px;
+  height: 60px;
+  margin-right: 22px;
 }
 
 .pergunta{
@@ -120,7 +119,6 @@ font-size: 16px;
 line-height: 19px;
 color: #333333;
 margin-left: 2%;
-margin-top: 20px
 }
 .icon{
 width: 25px;
@@ -165,7 +163,6 @@ border-radius: 5px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     margin: 0 auto;
-    position: relative;
     margin-bottom: 25px;
     transform-style: preserve-3d;
     cursor: pointer;
@@ -177,10 +174,8 @@ border-radius: 5px;
     background: #FFFFD4;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-    margin: 0 auto;
     padding: 0 15px;
     transition: all .5s;
-    position: relative;
     margin-bottom: 25px;
     transform-style: preserve-3d;
     cursor: pointer;
@@ -197,20 +192,17 @@ border-radius: 5px;
     margin: 18px 12px 12px 6px;
     word-break: break-word;
   }
-.flash-card-question span {
-    text-align: center;
-    word-break: break-word;
-    font-family: 'Recursive';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #333333;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 18px 15px 0 15px;
-    padding: 0 15px;
+.flash-card-question p {
+  text-align: center;
+  font-family: 'Recursive';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  margin: 18px 12px 12px 6px;
+  word-break: break-word;
+   
   } 
   
   .flash-card-question img {
@@ -312,7 +304,7 @@ border-radius: 5px;
   }
   
   .flash-cards .flash-card-answered:first-child {
-    margin-top: 51px;
+    margin-top: 0px;
   }
   
   .flash-cards .flash-card-answered:nth-child(-n+7) {
@@ -442,6 +434,32 @@ footer p {
   border: none;
 }
 
+
+.inicio button,
+select,
+option,
+input {
+    width: 245px;
+    height: 50px;
+    background: #ffffff;
+    border: 1px solid #d70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family: "Recursive";
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 14px;
+    text-align: center;
+    color: #fa5555;
+}
+
+.inicio button.locked {
+    color: #c0c0c0;
+    background: #e8e8e8;
+    border: none;
+    box-shadow: none;
+}
+
   /* ! Media Query */
 
 @media screen and (min-width: 1000px) {
@@ -449,7 +467,7 @@ footer p {
     header {
       display: flex;
       justify-content: center;
-      margin-top: 82px;
+      margin-top: 65px;
     }
     
     header img {
@@ -458,15 +476,28 @@ footer p {
       margin-right: 22px;
     }
     
-    header h1 {
-      font-size: 64px;
-      line-height: 79px;
+  
+    
+    .flash-card {
+      width: 300px;
+      height: 65px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 6px;
+    
     }
-    
-    
     .pergunta {
       width: 567.12px;
       height: 91.74px;
+    }
+    .input{
+      width: 567.12px;
+      height: 46px;
     }
     .icon{
         width: 31.69px;
