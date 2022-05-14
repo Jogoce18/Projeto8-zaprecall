@@ -1,3 +1,16 @@
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/picinelli/projeto-zaprecall/">
+    <img src="https://github.com/picinelli/projeto-zaprecall/blob/main/src/assets/raio.svg" alt="logo" width="100">
+  </a>
+
+<h3 align="center">Zap! Recall Project</h3>
+  <p align="center">
+    Projeto de uma aplicação de FlashCards utilizando React
+    <br />
+    <a href="https://github.com/Jogoce18/projeto8-zaprecall/tree/main/src"><strong>Código JSX»</strong></a>
+</div>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
