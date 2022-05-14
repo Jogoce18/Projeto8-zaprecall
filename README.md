@@ -11,7 +11,13 @@
     <br />
     <a href="https://github.com/Jogoce18/projeto8-zaprecall/tree/main/src"><strong>Código JSX»</strong></a>
 </div>
-# Getting Started with Create React App
+- *Flashcards* são cartões de contém uma pergunta/afirmação na sua frente e uma resposta atrás. É possível utilizá-los para treinar sua memória com as metodologias *Active Recall* e *Spaced Repetition.* A ideia é ler a pergunta ou afirmação e tentar lembrar da reposta. Ao se deparar com a mesma, dependendo do esforço necessário para responder ou não o *flashcard*, você fica consciente de quais conteúdos estão frescos na memória e quais não estão, então, pode praticar com frequência os conteúdos que não estão.
+
+- Quando lembramos instantaneamente de um *flashcard*, tivemos um **"Zap!"**⚡
+
+- Conjuntos de *flashcards* são chamados de *decks.* Este app deverá possuir por padrão pelo menos um *deck* com 8 *flashcards*.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
