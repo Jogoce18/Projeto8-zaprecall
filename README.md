@@ -17,6 +17,9 @@
 
 - Conjuntos de *flashcards* são chamados de *decks.* Este app deverá possuir por padrão pelo menos um *deck* com 8 *flashcards*.
 
+![Banner](https://github.com/picinelli/projeto-zaprecall/blob/main/src/assets/ZapRecall-banner.png)
+
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
